@@ -19,9 +19,12 @@
 }
 #negro 
 {
+    align-items: center;
+    display: grid;
     height: 100%;
     width:100%;
     background-color: black;
+    justify-content: center;
 }
 #rojos
 {
@@ -29,4 +32,10 @@
     height: 100%;
     background-color: red;
 
+}
+img
+{
+    border-radius: 35px;
+    width: 200px;
+    height: 150px;
 }
